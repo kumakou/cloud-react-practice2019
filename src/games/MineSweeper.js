@@ -2,11 +2,11 @@ import React from "react";
 import Button from '@material-ui/core/Button';
 
 class MineSweeper extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
-      field: [...Array(props.field_size.width * props.field_size.height).keys()],
+      field: [...Array(props.field_size.width * props.field_size.height).keys()], //[0,1,2,3,...,79]
     };
   }
 
