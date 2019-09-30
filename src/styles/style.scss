@@ -1,0 +1,15 @@
+@import "../../node_modules/normalize.css/normalize.css";
+
+$grid: 10px;
+
+body{
+  width: 100%;
+  padding: $grid;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+p{
+  margin: $grid;
+}
+
